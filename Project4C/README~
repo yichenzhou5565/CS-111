@@ -1,0 +1,35 @@
+NAME: Yichen Zhou
+ID: 205140928
+EMAIL: yichenzhou@g.ucla.edu
+
+Included files:
+REAME: What you are reading now
+Makefile: for compilation
+lab4c_tcp.c:
+lab4c_tsl.c:
+
+References:
+To learn about SSL:
+https://tls.mbed.org/ssl-library
+
+I referenced to a SSL code example:
+http://fm4dd.com/openssl/sslconnect.shtm
+
+To write make file for tsl:
+http://theshybulb.com/2015/10/10/use-openssl-c-library.html
+
+I referenced an example:
+https://aticleworld.com/ssl-server-client-using-openssl-in-c/
+
+#include <openssl/ssl.h>
+int SSL_read(SSL* ssl, void *buf, int num);
+RC>0: successful
+o.w.: not successful
+Reference: https://linux.die.net/man/3/ssl_read
+
+#include <qsossl.h>
+int SSL_Init(SSLInit* init)
+Reference: https://www.ibm.com/support/knowledgecenter/
+	   ssw_ibm_i_71/apis/sslinit.htm
+
+https://www.maketecheasier.com/fix-no-route-to-host-error-linux/
