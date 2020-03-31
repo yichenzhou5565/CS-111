@@ -1,0 +1,46 @@
+NAME: Yichen Zhou, Jinghao Zhang
+EMAIL: yichenzhou@g.ucla.edu, zhangjinghao1115@hotmail.com
+UID: 205140928, 305065805
+
+Included Files:
+README:
+Makefile:
+lab3a.c:
+ext2_fs.h:
+
+General Structure of Program (lab3a.c):
+main()
+	calls superblock(), which prints superblock summary
+	calls group(), which prints group summary
+	      calls freeblock(), which prints freeblock summary
+	      calls free_inode()
+	      	    if inode free, prints free inode summary
+		    if inode alloc, calls inode()
+		       if dirent, calls directory_entry()
+		       if indirent, calls single/double/triple()
+
+References:
+#include <unistd.h>
+ssize_tpread(int fd, void* buf, size_t count, off_t offset);
+pread() reads up to count bytes from file descriptor fd at offset
+offset (from the start of the file) into the buffer starting at buf.
+The file offset is not changed.
+RC= # of bytes read: on success
+RC=-1: set errno
+Referenced from:
+http://man7.org/linux/man-pages/man2/pwrite.2.html
+
+To resolve .h file compilation probelms:
+Order of inclusion does matter. Should include <stdint.h>.
+Referenced from:
+https://stackoverflow.com/questions/8953672/unknown-type-
+	name-uint32-t-mingw/8953848
+
+Record:
+inode():
+	in gettime, I changed inode_i_ctime to inode.ctime
+
+gettime()
+	delete & before info in strftime() call
+
+
