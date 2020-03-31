@@ -1,0 +1,40 @@
+NAME: Yichen Zhou, Jinghao Zhang
+ID: 205140928, 305065805
+EMAIL: yichenzhou@g.ucla.edu, zhangjinghao1115@hotmail.com
+
+Included Files:
+README: What you are reading now
+Makefile: three targets:
+	  default: create a link to the executable
+	  dist: make the tarball
+	  clean: remove any files that are created during execution
+lab3b.py: Python3 source file that do whatever specified
+lab3b_shell: short shell script that runs lab3b.py
+
+General design:
+main()
+	calls inodeConsistencyAudit():
+	      get superblock info, freelist info, alloc info
+	      print error message if any inaccordance is present
+	      	    and set the global flag inconsistent=True
+	calls blockConsistencyAudit:
+	      checking while iteration goes on, print if
+	      	       any disaccordance is present
+		       and set inconsistent=True
+        return 0 if no inconsistent found
+	otherwise, return 2
+	if any system call error, return 1
+
+References:
+To read the lines with ',' as deliminator, we used csv.reader().However,
+there is a subtlety. csv.reader kind of serves as an iterator, so after
+finishing the first loop, the iterator will be at the very last line of
+the file and therefore the following loops will never get executed. This
+problem is not that of a big deal when dealing with block reports, but
+per the algorithm used for inode reports (first gather the ALL free list
+and alloc list info and then decide if any invalid situations occur),
+we searched and decide to use seek(0) to solve this problem:
+https://stackoverflow.com/questions/11150155/why-cant-i-repeat-the
+	-for-loop-for-csv-reader
+
+
