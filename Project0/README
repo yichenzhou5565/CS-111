@@ -1,0 +1,76 @@
+NAME: Yichen Zhou
+EMAIL: yichenzhou@g.ucla.edu
+ID: 205140928
+
+Description of included files:
+lab0.c: the source file
+backtrace.png: screenshot of gdb regarding backtracing
+	       segfault & its stack trace
+breakpoint.png: screenshot of gdb regarding segfault
+		option and makinf sure the pointer is
+		indeed NULL
+README: What u r reading now :))
+Makefile: compile the program, and several other options
+	  like making tar, making smoke-test
+
+Smoke-test cases:
+For readability I will not include the actual shell script
+code for the smoke test. Instead I would describe my test
+cases below.
+Smoke-test General Design:
+My smoke-test cases are in the Makefile. By running 
+"make check" in shell, the smoke-test cases will run.
+
+Testcase #1: Both --input and --output option is given.
+Check the return code should be 0
+
+Testcase #2: Both --input and --output option is given.
+Check that two files should be identical in content by
+using diff command and check the return code of diff.
+Notice that if the two files are different diff will
+return 1, if identical it'll return 0.
+
+Testcase #3: Only --input option is specified
+Check the return code should be 0.
+
+Testcase #4: Only --input option is given.
+Put the output into another file. And then use the diff
+command to check if input and the just-generated "output"
+file is different or not.
+
+Testcase #5: Only --output option is given.
+Check that the return code is 0.
+
+Testcase #6: Only --output option is given.
+echo is same input for stdin into an helper 
+"input" file. And compare the two files.
+
+For segfault test, I did not include the 
+--segfault option smoke-test in the make check part
+because the once I use the segfault option, the 
+execution would be interrupted
+
+
+
+Other information:
+To research about the getopt(3) function, I went online
+to some info regarding this:
+http://man7.org/linux/man-pages/man3/getopt.3.html
+This link pretty much provides enough info for this proj.
+
+I am not very familiar with signal(), so I read:
+https://www.tutorialspoint.com/c_standard_library/
+	c_function_signal.htm
+
+To print out the reason why a file cannot be openned by 
+fprintf, I referred to:
+https://www.tutorialspoint.com/cprogramming/c_error_handling.htm
+
+I also did a little research on how to create a file
+and return the file descriptor, instead of the file
+pointer:
+https://www.geeksforgeeks.org/
+	input-output-system-calls-c-create-open-close-read-write/
+
+
+

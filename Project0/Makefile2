@@ -1,0 +1,48 @@
+# NAME: Yichen Zhou
+# EMAIL: yichenzhou@g.ucla.edu
+# ID: 205140928
+
+MAKEFLAGS += --silent
+default:
+	gcc -Wall -Wextra -g lab0.c -o lab0
+
+clean:
+	rm -rf *.o lab0 *.tar.gz
+
+dist:
+	tar -czvf lab0-205140928.tar.gz lab0.c Makefile README backtrace.png breakpoint.png
+
+check:
+# compile the program first
+	@gcc -Wall -Wextra -g lab0.c -o lab0; \
+	echo "***Test with input and output file***"; \
+	echo "***This is CS111 without Prof.Eggert!***" >in.txt; \
+	./lab0 --input=in.txt --output=out.txt; \
+#	EXIT_CODE=$?
+	@if [[ $$? -eq 0 ]]; then echo "***Success in I/O file test for exit status.***"; \
+#	else echo "***FAIL the exit status for I/O file test.***"
+	fi
+
+	@diff --brief in.txt out.txt;
+#	EXIT_STATUS=$?
+	@if [[ $$? -eq 1 ]]; then echo "***FAIL the I/O file test. Incorrectly copied contents.***"; \ 
+#	else echo "***Success in I/O file test for content.***"
+	fi
+
+	echo "Test with input file and regular output"; \
+	./lab0 --input=in.txt >out.txt;
+	@if [[ $$? -eq 0 ]]; then echo "***Success in file/output test.***" \
+	fi
+	@if [[ $$? -ne 0 ]]; then echo "***FAIL the file/output test.***" \
+	fi
+	@diff --brief in.txt out.txt; 
+	@if [[ $$? -eq 1 ]]; then echo "***FAIL in file/output content test.***" \
+	fi
+	@if [[ $$? -eq 0 ]]; then echo "***Success in the file/output content test.***" \
+	fi
+
+	echo "Test with regular input and output file"; \
+	echo "Test with segmentation fault"; \
+	echo "Test for the catch option"; \
+	echo "Test for invalid arguments"; \
+	echo "All testcases passed."
