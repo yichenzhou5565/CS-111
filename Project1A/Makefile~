@@ -1,2 +1,0 @@
-default:
-	gcc -g3 -Wall -Wextra lab1a.c -o lab1a
