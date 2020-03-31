@@ -1,0 +1,54 @@
+NAME: Yichen Zhou
+EMAIL: yichenzhou@g.ucla.edu
+ID: 205140928
+
+Include files:
+lab4b.c: Source file
+README: What you are reading now
+Makefile: Compilation, smoke test, distribution, clean
+
+**Important**
+Here is a pitfall I dealt in the project. It is so tricky
+that I spent like 2 days to figure it out. I record it for
+my future references:
+
+While reading the command, I first use fgets(). This is 
+convenient and work just fine when testing through
+keyboard and shell. But when it comes to pipe_test
+in the sanity check, it will hang there forever.
+
+The underlying reason, at least what I think, is that in
+the pipe_test, all commands are thrown all at once. But
+consider this man page:
+https://linux.die.net/man/3/fgets
+
+fgets() will end whenever there is an '\n' appears. This is
+to say, in the pipe_test, it can only read the first command.
+Therefore the "OFF" can never be reached, and the sanity
+check just hang there forever.
+
+A correct fix to this problem is use the read() system call
+to read all things into a buffer and parse the commands,
+if necessary, by using '\n' as separator. The lesson here,
+I guess, is this is an OS class so that don't use those
+fancy subroutine calls. Yes they are convenient and fast
+but there are subtleties that I am not familar with and may
+cost much more time to debug than to write the code itself.
+
+
+References:
+MRAA library
+https://iotdk.intel.com/docs/master/mraa/aio_8h.html
+
+To read temperature sensor using mraa, I referenced:
+https://community.seeedstudio.com/C-C---on-Intel-Edison-
+	Galileo-%E2%80%93-part5%3ATemperature-sensor-p-1997.html
+https://navinbhaskar.wordpress.com/2016/07/05/cc-on-
+	intel-edisongalileo-part5temperature-sensor/
+
+To get time, I referenced:
+http://souptonuts.sourceforge.net/code/gettimeofday.c.html
+
+To detect substring, I referenced:
+https://stackoverflow.com/questions/12784766/check-substring-
+	exists-in-a-string-in-c
