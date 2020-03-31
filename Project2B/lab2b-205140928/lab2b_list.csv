@@ -1,0 +1,194 @@
+list-none-m,1,1000,1,3000,4838886,1612,25
+list-none-m,2,1000,1,6000,28121457,4686,4674
+list-none-m,4,1000,1,12000,107652569,8971,25195
+list-none-m,8,1000,1,24000,447068753,18627,122812
+list-none-m,16,1000,1,48000,2076724645,43265,586124
+list-none-m,24,1000,1,72000,4678160535,64974,1347760
+list-none-s,1,1000,1,3000,4910050,1636,22
+list-none-s,2,1000,1,6000,18844824,3140,2588
+list-none-s,4,1000,1,12000,99861972,8321,24237
+list-none-s,8,1000,1,24000,258038887,10751,52246
+list-none-s,16,1000,1,48000,2350207988,48962,705368
+list-none-s,24,1000,1,72000,6459833132,89719,1953301
+list-id-none,1,1,4,3,108885,36295,0
+list-id-none,1,2,4,6,115604,19267,0
+list-id-none,1,4,4,12,128194,10682,0
+list-id-none,1,8,4,24,124766,5198,0
+list-id-none,1,16,4,48,150846,3142,0
+list-id-none,4,1,4,12,198354,16529,0
+list-id-none,4,2,4,24,151409,6308,0
+list-id-none,4,4,4,48,204036,4250,0
+list-id-none,4,8,4,96,214040,2229,0
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+list-id-none,8,1,4,24,273400,11391,0
+list-id-none,8,2,4,48,310260,6463,0
+list-id-none,8,4,4,96,325549,3391,0
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+list-id-none,12,1,4,36,372625,10350,0
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalilist-id-none,16,1,4,48,467595,9741,0
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+list-id-none,16,4,4,192,403937,2103,0
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+Invalid length. List has already been corrupted.
+list-id-m,1,10,4,30,98202,3273,72
+list-id-m,1,20,4,60,173240,2887,45
+list-id-m,1,40,4,120,185333,1544,34
+list-id-m,1,80,4,240,260218,1084,34
+list-id-m,4,10,4,120,240997,2008,926
+list-id-m,4,20,4,240,324446,1351,837
+list-id-m,4,40,4,480,512228,1067,1096
+list-id-m,4,80,4,960,972021,1012,1497
+list-id-m,8,10,4,240,397571,1656,2418
+list-id-m,8,20,4,480,599776,1249,2952
+list-id-m,8,40,4,960,1016633,1058,3746
+list-id-m,8,80,4,1920,2007960,1045,4340
+list-id-m,12,10,4,360,511103,1419,3183
+list-id-m,12,20,4,720,777348,1079,4406
+list-id-m,12,40,4,1440,1456133,1011,5850
+list-id-m,12,80,4,2880,3286360,1141,8376
+list-id-m,16,10,4,480,646885,1347,3898
+list-id-m,16,20,4,960,1034198,1077,5952
+list-id-m,16,40,4,1920,2211082,1151,10189
+list-id-m,16,80,4,3840,4768850,1241,13883
+list-id-s,1,10,4,30,125771,4192,32
+list-id-s,1,20,4,60,117393,1956,29
+list-id-s,1,40,4,120,186271,1552,26
+list-id-s,1,80,4,240,268023,1116,25
+list-id-s,4,10,4,120,190361,1586,230
+list-id-s,4,20,4,240,253710,1057,421
+list-id-s,4,40,4,480,379975,791,605
+list-id-s,4,80,4,960,651010,678,793
+list-id-s,8,10,4,240,321668,1340,503
+list-id-s,8,20,4,480,357995,745,903
+list-id-s,8,40,4,960,680595,708,2104
+list-id-s,8,80,4,1920,1699722,885,3741
+list-id-s,12,10,4,360,402841,1119,555
+list-id-s,12,20,4,720,601925,836,2074
+list-id-s,12,40,4,1440,1154190,801,4356
+list-id-s,12,80,4,2880,2930226,1017,7653
+list-id-s,16,10,4,480,554668,1155,594
+list-id-s,16,20,4,960,846285,881,4378
+list-id-s,16,40,4,1920,1853068,965,8257
+list-id-s,16,80,4,3840,4654791,1212,13570
+list-none-m,1,1000,1,3000,4821679,1607,24
+list-none-m,1,1000,4,3000,1371186,457,29
+list-none-m,1,1000,8,3000,831552,277,25
+list-none-m,1,1000,16,3000,633298,211,25
+list-none-m,2,1000,1,6000,27515923,4585,4579
+list-none-m,2,1000,4,6000,8203139,1367,764
+list-none-m,2,1000,8,6000,4433542,738,356
+list-none-m,2,1000,16,6000,2715475,452,213
+list-none-m,4,1000,1,12000,105026911,8752,26007
+list-none-m,4,1000,4,12000,19031342,1585,3042
+list-none-m,4,1000,8,12000,8944451,745,1101
+list-none-m,4,1000,16,12000,4416120,368,419
+list-none-m,8,1000,1,24000,472486853,19686,132614
+list-none-m,8,1000,4,24000,54061147,2252,11992
+list-none-m,8,1000,8,24000,21237130,884,3863
+list-none-m,8,1000,16,24000,9093834,378,1227
+list-none-m,12,1000,1,36000,1054347004,29287,300652
+list-none-m,12,1000,4,36000,119029712,3306,29981
+list-none-m,12,1000,8,36000,43006609,1194,9234
+list-none-m,12,1000,16,36000,14533257,403,2430
+list-none-s,1,1000,1,3000,4825422,1608,22
+list-none-s,1,1000,4,3000,1357831,452,23
+list-none-s,1,1000,8,3000,711301,237,23
+list-none-s,1,1000,16,3000,460494,153,22
+list-none-s,2,1000,1,6000,21423656,3570,3568
+list-none-s,2,1000,4,6000,7753246,1292,458
+list-none-s,2,1000,8,6000,3909485,651,206
+list-none-s,2,1000,16,6000,2199314,366,149
+list-none-s,4,1000,1,12000,96610812,8050,23022
+list-none-s,4,1000,4,12000,20157698,1679,2753
+list-none-s,4,1000,8,12000,8699539,724,831
+list-none-s,4,1000,16,12000,3761534,313,312
+list-none-s,8,1000,1,24000,245936782,10247,47783
+list-none-s,8,1000,4,24000,44000340,1833,9123
+list-none-s,8,1000,8,24000,16922657,705,2779
+list-none-s,8,1000,16,24000,6973284,290,821
+list-none-s,12,1000,1,36000,837145646,23254,202082
+list-none-s,12,1000,4,36000,95943764,2665,23169
+list-none-s,12,1000,8,36000,32343185,898,6765
+list-none-s,12,1000,16,36000,11340118,315,1725
